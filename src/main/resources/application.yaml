@@ -1,0 +1,15 @@
+
+
+spring:
+  datasource:
+    url: jdbc:postgresql://${DB_HOST}/alura_biblioteca
+    username: ${DB_USER}
+    password: ${DB_PASSWORD}
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    format-sql: true
+
